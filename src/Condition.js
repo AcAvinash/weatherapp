@@ -12,7 +12,7 @@ const[serachValue, setsearchValue]= useState("Patna");
 const getWeatherInfo =async()=>{
     try {
         let url=
-`https://api.openweathermap.org/data/2.5/weather?q=${serachValue}&units=metric&appid=1d04174c018df6a88bad9d0550258f9d`;
+`https://api.openweathermap.org/data/2.5/weather?q=${serachValue}&units=metric&appid=87d0a2c6fdd1464fcda93618feda148f`;
 
 let res= await fetch(url)
 let data=await res.json();
